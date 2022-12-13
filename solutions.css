@@ -75,6 +75,6 @@
 }
 
 .ex-8-img:hover {
-    filter: grayscale();
+    filter: saturate(.3);
     border-radius: 50px;
 }

@@ -90,3 +90,23 @@
     border-radius: 50px;
     transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+
+@keyframes iconEx10 {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ex-10-icon {
+    animation-name: iconEx10;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}

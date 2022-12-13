@@ -57,3 +57,13 @@
 .ex-6-img:hover {
     filter: grayscale();
 }
+
+/* Esercizio 7 */
+
+.ex-7-img {
+    transition: filter .5s linear 0s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale();
+}

@@ -137,29 +137,31 @@
 
 @keyframes topWhite12 {
     0% {
-        transform: translateX(0);
+        left: 10%;
     }
 
     50% {
-        transform: translateX(100px);
+        left: calc(100% - 60px);
+
     }
 
     100% {
-        transform: translateX(0);
+        left: 10%;
+
     }
 }
 
 @keyframes bottomWhite12 {
     0% {
-        transform: translateX(0);
+        right: 20%;
     }
 
     50% {
-        transform: translateX(-80px);
+        right: calc(100% - 60px);
     }
 
     100% {
-        transform: translateX(0);
+        right: 20%;
     }
 }
 

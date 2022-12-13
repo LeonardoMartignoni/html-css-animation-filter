@@ -78,3 +78,15 @@
     filter: saturate(.3);
     border-radius: 50px;
 }
+
+/* Esercizio 9 */
+
+.ex-9-img {
+    transition: all 2s ease 0s;
+}
+
+.ex-9-img:hover {
+    filter: saturate(.3);
+    border-radius: 50px;
+    transform: scale(1.5);
+}

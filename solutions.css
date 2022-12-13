@@ -110,3 +110,25 @@
     animation-direction: reverse;
     animation-timing-function: linear;
 }
+
+/* Esercizio 11 */
+
+@keyframes iconEx11 {
+    0% {
+        transform: rotate(0);
+    }
+
+    90% {
+        transform: rotate(calc(360deg / 4 * 3));
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.ex-11-icon:hover {
+    animation-name: iconEx11;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}

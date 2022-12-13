@@ -67,3 +67,14 @@
 .ex-7-img:hover {
     filter: grayscale();
 }
+
+/* Esercizio 8 */
+
+.ex-8-img {
+    transition: all 1s ease 0s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale();
+    border-radius: 50px;
+}
